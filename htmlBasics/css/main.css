@@ -156,7 +156,13 @@ nav a:hover {
    ========================================================================== */
 
 
-
+.tree{
+	display:block;
+	position:absolute;
+	bottom:-8em;
+	right:-4em;
+	height:23em;
+}
 
 
 
