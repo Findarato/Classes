@@ -170,31 +170,21 @@ nav a:hover {
 	display: block;
 	position: absolute;
 	bottom: 0;
-	right: -4em;
+	right: 4em;
 	height: 23em;
 	width: 21.5em;
-	-moz-filter: drop-shadow(0 0 1px #1f1f1f);
-	-webkit-filter: drop-shadow(0 0 1px #1f1f1f);
-	filter: drop-shadow(0 0 1px #1f1f1f);
-	transform: translate(74px,90px) scale(.5,.5);
-	-ms-transform: translate(226px,0); /* IE 9 */
-	-webkit-transform: translate(226px, 0) scale(.5,.5);
-	
-	
+	transform: translate(218px,90px) scale(.5,.5);
+	-ms-transform: translate(218px,90px) scale(.5,.5);/* IE 9 */
+	-webkit-transform: translate(218px, 90px) scale(.5,.5);
 	-moz-transition: all 1s cubic-bezier(1, -0.53, 0.405, 1.425) 0s;
     -webkit-transition: all 1s cubic-bezier(1, -0.53, 0.405, 1.425) 0s;
     -o-transition:width all 1s cubic-bezier(1, -0.53, 0.405, 1.425) 0s;
     transition:all 1s cubic-bezier(1, -0.53, 0.405, 1.425) 0s;
-	
-	
 }
 .tree:hover {
-	-moz-filter: drop-shadow(2px 2px 1px #1f1f1f);
-	-webkit-filter: drop-shadow(2px 2px 1px #1f1f1f);
-	filter: drop-shadow(2px 2px 1px #1f1f1f);
 	transform: translate(0, 0) scale(1,1);
-	-ms-transform: translate(0, 0);
-	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0) scale(1,1);
+	-webkit-transform: translate(0, 0) scale(1,1);
 }
 
 .main-container {
