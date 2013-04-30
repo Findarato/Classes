@@ -151,6 +151,7 @@ nav a:hover {
 	bottom: 0;
 	right: -4em;
 	height: 23em;
+	width: 21.5em;
 	-moz-filter: drop-shadow(0 0 1px #1f1f1f);
 	-webkit-filter: drop-shadow(0 0 1px #1f1f1f);
 	filter: drop-shadow(0 0 1px #1f1f1f);
