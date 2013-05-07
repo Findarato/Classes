@@ -219,3 +219,6 @@ footer{
 	border-radius: .25em;
 	-webkit-border-radius: .25em;
 }
+img{
+	box-shadow: 0 5px 10px #AAAAAA
+}
